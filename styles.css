@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 17, 17);
+    color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin: auto;
+   
+}
+
+header {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+h1 {
+    color: rgb(107, 255, 243);
+    width: 26em;
+    padding: 1em;
+    border: 2px solid;
+    border-color:rgb(107, 255, 243);
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0em 0em 2em blue;
+}
+
+form {
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+}
+
+input {
+    color: rgb(107, 255, 243);
+    /* box-shadow:0em 0em .5em palegoldenrod;; */
+    border: 2px solid rgb(107, 255, 243);;
+    padding: 0 .2em 0 1em;
+    border-radius: 2px;
+}
+input:focus {
+    background-color: black;
+    color: rgb(107, 255, 243);
+}
+
+button {
+    color: rgb(17, 17, 17);
+    background-color: rgb(107, 255, 243);
+    /* box-shadow:0em 0em .5em palegoldenrod; */
+    border: 2px solid rgb(107, 255, 243);
+    padding: 0 1em 0 1em;
+    border-radius: 2px;
+}
+
+button:hover {
+    color: whitesmoke;
+    background-color: blue;
+    box-shadow:0em 0em .5em rgb(107, 255, 243);
+    border: 2px solid blue;
+    transition: ease-in-out .3s;
+}
+
+div {
+    text-align: center;
+    border: 2px solid;
+    border-radius: 2px;
+    width: 20em;
+    margin-top: 1em;
+}
+
+h3 {
+    text-align: center;
+}
+
+.red {
+    color: red;
+    border-color:red;
+}
+
+.green {
+    color: rgb(3, 231, 3);
+    border-color: rgb(3, 231, 3);
+}
