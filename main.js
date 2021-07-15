@@ -33,7 +33,8 @@ const submitTicker = (event) => {
         document.body.appendChild(div).appendChild(h2)
         div.appendChild(h3)
     })
-    // document.querySelector("input").value = ""
+    document.querySelector("input").value = ""
+    // This is the random pokemon generator:
     // axios.get(`https://pokeapi.co/api/v2/pokemon?limit=251`).then((res) => {
     //     randomIndex = Math.floor(Math.random()*res.data.results.length)
     //     console.log(randomIndex)
